@@ -11,3 +11,13 @@
 1716296711.376992216 WARN /cb_logger [/home/rosh/catkin_ws/src/auto-log-test/src/logging_test.cpp:17(run)] [topics: /rosout] 1
 1716296711.377005690 ERROR /cb_logger [/home/rosh/catkin_ws/src/auto-log-test/src/logging_test.cpp:18(run)] [topics: /rosout] 1
 1716296711.377019861 FATAL /cb_logger [/home/rosh/catkin_ws/src/auto-log-test/src/logging_test.cpp:19(run)] [topics: /rosout] 1
+1716296712.721952404 DEBUG /cb_logger2 [/home/rosh/catkin_ws/src/auto-log-test/src/logging_test2.cpp:15(run)] [topics: /rosout] 3
+1716296712.721985072 INFO /cb_logger2 [/home/rosh/catkin_ws/src/auto-log-test/src/logging_test2.cpp:16(run)] [topics: /rosout] 3
+1716296712.722008769 WARN /cb_logger2 [/home/rosh/catkin_ws/src/auto-log-test/src/logging_test2.cpp:17(run)] [topics: /rosout] 3
+1716296712.722035224 ERROR /cb_logger2 [/home/rosh/catkin_ws/src/auto-log-test/src/logging_test2.cpp:18(run)] [topics: /rosout] 3
+1716296712.722058283 FATAL /cb_logger2 [/home/rosh/catkin_ws/src/auto-log-test/src/logging_test2.cpp:19(run)] [topics: /rosout] 3
+1716296713.376925805 DEBUG /cb_logger [/home/rosh/catkin_ws/src/auto-log-test/src/logging_test.cpp:15(run)] [topics: /rosout] 1
+1716296713.376967944 INFO /cb_logger [/home/rosh/catkin_ws/src/auto-log-test/src/logging_test.cpp:16(run)] [topics: /rosout] 1
+1716296713.376994083 WARN /cb_logger [/home/rosh/catkin_ws/src/auto-log-test/src/logging_test.cpp:17(run)] [topics: /rosout] 1
+1716296713.377024954 ERROR /cb_logger [/home/rosh/catkin_ws/src/auto-log-test/src/logging_test.cpp:18(run)] [topics: /rosout] 1
+1716296713.377052764 FATAL /cb_logger [/home/rosh/catkin_ws/src/auto-log-test/src/logging_test.cpp:19(run)] [topics: /rosout] 1
