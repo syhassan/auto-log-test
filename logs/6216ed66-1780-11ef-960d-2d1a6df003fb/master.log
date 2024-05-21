@@ -24,3 +24,4 @@
 [rosmaster.master][INFO] 2024-05-21 16:42:45,664: publisherUpdate[/rosout] -> http://rosh-a515:40583/ ['http://rosh-a515:42811/']: sec=0.01, result=[1, '', 0]
 [rosmaster.master][INFO] 2024-05-21 16:42:45,664: publisherUpdate[/rosout] -> http://rosh-a515:40583/ ['http://rosh-a515:42811/', 'http://rosh-a515:46709/']
 [rosmaster.master][INFO] 2024-05-21 16:42:45,671: publisherUpdate[/rosout] -> http://rosh-a515:40583/ ['http://rosh-a515:42811/', 'http://rosh-a515:46709/']: sec=0.01, result=[1, '', 0]
+[rosmaster.master][INFO] 2024-05-21 16:42:47,253: +CACHEDPARAM [/rosout/omit_topics] by /rosout

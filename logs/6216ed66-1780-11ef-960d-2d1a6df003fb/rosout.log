@@ -1,3 +1,8 @@
 
 
 1716302565.548187908  Node Startup
+1716302567.252783182 DEBUG /cb_logger2 [/home/rosh/catkin_ws/src/auto-log-test/src/logging_test2.cpp:15(run)] [topics: /rosout] 3
+1716302567.252815838 INFO /cb_logger2 [/home/rosh/catkin_ws/src/auto-log-test/src/logging_test2.cpp:16(run)] [topics: /rosout] 3
+1716302567.252838092 WARN /cb_logger2 [/home/rosh/catkin_ws/src/auto-log-test/src/logging_test2.cpp:17(run)] [topics: /rosout] 3
+1716302567.252863483 ERROR /cb_logger2 [/home/rosh/catkin_ws/src/auto-log-test/src/logging_test2.cpp:18(run)] [topics: /rosout] 3
+1716302567.252887870 FATAL /cb_logger2 [/home/rosh/catkin_ws/src/auto-log-test/src/logging_test2.cpp:19(run)] [topics: /rosout] 3
