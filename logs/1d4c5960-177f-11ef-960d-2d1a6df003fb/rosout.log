@@ -1,0 +1,13 @@
+
+
+1716302020.681750208  Node Startup
+1716302026.717280020 DEBUG /cb_logger [/home/rosh/catkin_ws/src/auto-log-test/src/logging_test.cpp:15(run)] [topics: /rosout] 1
+1716302026.717328566 INFO /cb_logger [/home/rosh/catkin_ws/src/auto-log-test/src/logging_test.cpp:16(run)] [topics: /rosout] 1
+1716302026.717356387 WARN /cb_logger [/home/rosh/catkin_ws/src/auto-log-test/src/logging_test.cpp:17(run)] [topics: /rosout] 1
+1716302026.717381804 ERROR /cb_logger [/home/rosh/catkin_ws/src/auto-log-test/src/logging_test.cpp:18(run)] [topics: /rosout] 1
+1716302026.717411255 FATAL /cb_logger [/home/rosh/catkin_ws/src/auto-log-test/src/logging_test.cpp:19(run)] [topics: /rosout] 1
+1716302027.400396092 DEBUG /cb_logger2 [/home/rosh/catkin_ws/src/auto-log-test/src/logging_test2.cpp:15(run)] [topics: /rosout] 3
+1716302027.400639257 INFO /cb_logger2 [/home/rosh/catkin_ws/src/auto-log-test/src/logging_test2.cpp:16(run)] [topics: /rosout] 3
+1716302027.400692763 WARN /cb_logger2 [/home/rosh/catkin_ws/src/auto-log-test/src/logging_test2.cpp:17(run)] [topics: /rosout] 3
+1716302027.400751049 ERROR /cb_logger2 [/home/rosh/catkin_ws/src/auto-log-test/src/logging_test2.cpp:18(run)] [topics: /rosout] 3
+1716302027.400814490 FATAL /cb_logger2 [/home/rosh/catkin_ws/src/auto-log-test/src/logging_test2.cpp:19(run)] [topics: /rosout] 3

@@ -1,0 +1,47 @@
+[rosmaster.main][INFO] 2024-05-21 16:11:58,521: initialization complete, waiting for shutdown
+[rosmaster.main][INFO] 2024-05-21 16:11:58,521: Starting ROS Master Node
+[xmlrpc][INFO] 2024-05-21 16:11:58,522: XML-RPC server binding to 0.0.0.0:11311
+[xmlrpc][INFO] 2024-05-21 16:11:58,522: Started XML-RPC server [http://rosh-a515:11311/]
+[rosmaster.master][INFO] 2024-05-21 16:11:58,522: Master initialized: port[11311], uri[http://rosh-a515:11311/]
+[xmlrpc][INFO] 2024-05-21 16:11:58,523: xml rpc node: starting XML-RPC server
+[rosmaster.master][INFO] 2024-05-21 16:11:58,560: +PARAM [/run_id] by /roslaunch
+[rosmaster.master][INFO] 2024-05-21 16:11:58,561: +PARAM [/roslaunch/uris/host_rosh_a515__34097] by /roslaunch
+[rosmaster.master][INFO] 2024-05-21 16:11:58,652: +PARAM [/rosversion] by /roslaunch
+[rosmaster.master][INFO] 2024-05-21 16:11:58,652: +PARAM [/rosdistro] by /roslaunch
+[rosmaster.master][INFO] 2024-05-21 16:11:58,662: +SERVICE [/rosout/get_loggers] /rosout http://rosh-a515:41071/
+[rosmaster.master][INFO] 2024-05-21 16:11:58,663: +SERVICE [/rosout/set_logger_level] /rosout http://rosh-a515:41071/
+[rosmaster.master][INFO] 2024-05-21 16:11:58,664: +PUB [/rosout_agg] /rosout http://rosh-a515:41071/
+[rosmaster.master][INFO] 2024-05-21 16:11:58,666: +SUB [/rosout] /rosout http://rosh-a515:41071/
+[rosmaster.master][INFO] 2024-05-21 16:11:58,672: +PUB [/rosout] /cb_logger http://rosh-a515:42557/
+[rosmaster.master][INFO] 2024-05-21 16:11:58,673: +SERVICE [/cb_logger/get_loggers] /cb_logger http://rosh-a515:42557/
+[rosmaster.master][INFO] 2024-05-21 16:11:58,673: +SERVICE [/cb_logger/set_logger_level] /cb_logger http://rosh-a515:42557/
+[rosmaster.master][INFO] 2024-05-21 16:11:58,675: +CACHEDPARAM [/rosout_disable_topics_generation] by /cb_logger
+[rosmaster.master][INFO] 2024-05-21 16:11:58,682: +PUB [/rosout] /cb_logger2 http://rosh-a515:36605/
+[rosmaster.master][INFO] 2024-05-21 16:11:58,683: +SERVICE [/cb_logger2/get_loggers] /cb_logger2 http://rosh-a515:36605/
+[rosmaster.master][INFO] 2024-05-21 16:11:58,683: +SERVICE [/cb_logger2/set_logger_level] /cb_logger2 http://rosh-a515:36605/
+[rosmaster.master][INFO] 2024-05-21 16:11:58,684: +CACHEDPARAM [/rosout_disable_topics_generation] by /cb_logger2
+[rosmaster.master][INFO] 2024-05-21 16:11:58,722: publisherUpdate[/rosout] -> http://rosh-a515:41071/ ['http://rosh-a515:42557/']
+[rosmaster.master][INFO] 2024-05-21 16:11:58,734: publisherUpdate[/rosout] -> http://rosh-a515:41071/ ['http://rosh-a515:42557/']: sec=0.01, result=[1, '', 0]
+[rosmaster.master][INFO] 2024-05-21 16:11:58,734: publisherUpdate[/rosout] -> http://rosh-a515:41071/ ['http://rosh-a515:42557/', 'http://rosh-a515:36605/']
+[rosmaster.master][INFO] 2024-05-21 16:11:58,739: publisherUpdate[/rosout] -> http://rosh-a515:41071/ ['http://rosh-a515:42557/', 'http://rosh-a515:36605/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2024-05-21 16:12:00,351: +CACHEDPARAM [/rosout/omit_topics] by /rosout
+[rosmaster.master][INFO] 2024-05-21 16:12:08,665: -PUB [/rosout] /cb_logger http://rosh-a515:42557/
+[rosmaster.master][INFO] 2024-05-21 16:12:08,668: -SERVICE [/cb_logger/get_loggers] /cb_logger rosrpc://rosh-a515:40105
+[rosmaster.master][INFO] 2024-05-21 16:12:08,670: -SERVICE [/cb_logger/set_logger_level] /cb_logger rosrpc://rosh-a515:40105
+[rosmaster.master][INFO] 2024-05-21 16:12:08,671: -CACHEDPARAM [/rosout_disable_topics_generation] by /cb_logger
+[rosmaster.master][INFO] 2024-05-21 16:12:08,745: publisherUpdate[/rosout] -> http://rosh-a515:41071/ ['http://rosh-a515:36605/']
+[rosmaster.master][INFO] 2024-05-21 16:12:08,753: publisherUpdate[/rosout] -> http://rosh-a515:41071/ ['http://rosh-a515:36605/']: sec=0.01, result=[1, '', 0]
+[rosmaster.master][INFO] 2024-05-21 16:12:08,765: -PUB [/rosout] /cb_logger2 http://rosh-a515:36605/
+[rosmaster.master][INFO] 2024-05-21 16:12:08,767: -SERVICE [/cb_logger2/get_loggers] /cb_logger2 rosrpc://rosh-a515:48323
+[rosmaster.master][INFO] 2024-05-21 16:12:08,769: -SERVICE [/cb_logger2/set_logger_level] /cb_logger2 rosrpc://rosh-a515:48323
+[rosmaster.master][INFO] 2024-05-21 16:12:08,771: -CACHEDPARAM [/rosout_disable_topics_generation] by /cb_logger2
+[rosmaster.master][INFO] 2024-05-21 16:12:08,846: publisherUpdate[/rosout] -> http://rosh-a515:41071/ []
+[rosmaster.master][INFO] 2024-05-21 16:12:08,851: publisherUpdate[/rosout] -> http://rosh-a515:41071/ []: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2024-05-21 16:12:10,454: -PUB [/rosout_agg] /rosout http://rosh-a515:41071/
+[rosmaster.master][INFO] 2024-05-21 16:12:10,454: -SUB [/rosout] /rosout http://rosh-a515:41071/
+[rosmaster.master][INFO] 2024-05-21 16:12:10,455: -SERVICE [/rosout/get_loggers] /rosout rosrpc://rosh-a515:44181
+[rosmaster.master][INFO] 2024-05-21 16:12:10,455: -SERVICE [/rosout/set_logger_level] /rosout rosrpc://rosh-a515:44181
+[rosmaster.master][INFO] 2024-05-21 16:12:10,456: -CACHEDPARAM [/rosout/omit_topics] by /rosout
+[rosmaster.main][INFO] 2024-05-21 16:12:10,469: keyboard interrupt, will exit
+[rosmaster.main][INFO] 2024-05-21 16:12:10,469: stopping master...
+[rospy.core][INFO] 2024-05-21 16:12:10,469: signal_shutdown [atexit]
