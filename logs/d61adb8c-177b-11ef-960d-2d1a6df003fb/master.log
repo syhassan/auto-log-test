@@ -37,3 +37,11 @@
 [rosmaster.master][INFO] 2024-05-21 16:10:20,321: publisherUpdate[/rosout] -> http://rosh-a515:38735/ ['http://rosh-a515:41125/']: sec=0.01, result=[1, '', 0]
 [rosmaster.master][INFO] 2024-05-21 16:10:20,322: publisherUpdate[/rosout] -> http://rosh-a515:38735/ []
 [rosmaster.master][INFO] 2024-05-21 16:10:20,324: publisherUpdate[/rosout] -> http://rosh-a515:38735/ []: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2024-05-21 16:10:22,328: -PUB [/rosout_agg] /rosout http://rosh-a515:38735/
+[rosmaster.master][INFO] 2024-05-21 16:10:22,328: -SUB [/rosout] /rosout http://rosh-a515:38735/
+[rosmaster.master][INFO] 2024-05-21 16:10:22,329: -SERVICE [/rosout/get_loggers] /rosout rosrpc://rosh-a515:41577
+[rosmaster.master][INFO] 2024-05-21 16:10:22,329: -SERVICE [/rosout/set_logger_level] /rosout rosrpc://rosh-a515:41577
+[rosmaster.master][INFO] 2024-05-21 16:10:22,330: -CACHEDPARAM [/rosout/omit_topics] by /rosout
+[rosmaster.main][INFO] 2024-05-21 16:10:22,424: keyboard interrupt, will exit
+[rosmaster.main][INFO] 2024-05-21 16:10:22,424: stopping master...
+[rospy.core][INFO] 2024-05-21 16:10:22,425: signal_shutdown [atexit]
