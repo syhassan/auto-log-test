@@ -1,0 +1,24 @@
+
+
+1716309917.592908883  Node Startup
+1716309917.944514202 DEBUG /cb_logger [/tmp/binarydeb/ros-noetic-roscpp-1.16.0/src/libros/connection_manager.cpp:202(ConnectionManager::onConnectionHeaderReceived)] [topics: /rosout] Connection: Creating TransportSubscriberLink for topic [/rosout] connected to [callerid=[/rosout] address=[TCPROS connection on port 37887 to [192.168.1.114:58508 on socket 11]]]
+1716309917.949174896 DEBUG /cb_logger2 [/tmp/binarydeb/ros-noetic-roscpp-1.16.0/src/libros/transport/transport_tcp.cpp:678(TransportTCPPtr ros::TransportTCP::accept)] [topics: /rosout] Accepted connection on socket [7], new socket [10]
+1716309917.949863891 DEBUG /cb_logger2 [/tmp/binarydeb/ros-noetic-roscpp-1.16.0/src/libros/transport/transport_tcp.cpp:143(TransportTCP::initializeSocket)] [topics: /rosout] Adding tcp socket [10] to pollset
+1716309917.949956698 DEBUG /cb_logger2 [/tmp/binarydeb/ros-noetic-roscpp-1.16.0/src/libros/connection_manager.cpp:188(ConnectionManager::tcprosAcceptConnection)] [topics: /rosout] TCPROS received a connection from [192.168.1.114:57584]
+1716309917.950102865 DEBUG /cb_logger2 [/tmp/binarydeb/ros-noetic-roscpp-1.16.0/src/libros/transport/transport_tcp.cpp:495(TransportTCP::read)] [topics: /rosout] Async socket[10] is connected
+1716309917.950213269 DEBUG /cb_logger2 [/tmp/binarydeb/ros-noetic-roscpp-1.16.0/src/libros/connection_manager.cpp:202(ConnectionManager::onConnectionHeaderReceived)] [topics: /rosout] Connection: Creating TransportSubscriberLink for topic [/rosout] connected to [callerid=[/rosout] address=[TCPROS connection on port 45695 to [192.168.1.114:57584 on socket 10]]]
+1716309919.296769887 DEBUG /cb_logger2 [/home/rosh/catkin_ws/src/auto-log-test/src/logging_test2.cpp:15(run)] [topics: /rosout] 3
+1716309919.296841451 INFO /cb_logger2 [/home/rosh/catkin_ws/src/auto-log-test/src/logging_test2.cpp:16(run)] [topics: /rosout] 3
+1716309919.296887201 WARN /cb_logger2 [/home/rosh/catkin_ws/src/auto-log-test/src/logging_test2.cpp:17(run)] [topics: /rosout] 3
+1716309919.296937819 ERROR /cb_logger2 [/home/rosh/catkin_ws/src/auto-log-test/src/logging_test2.cpp:18(run)] [topics: /rosout] 3
+1716309919.296992206 FATAL /cb_logger2 [/home/rosh/catkin_ws/src/auto-log-test/src/logging_test2.cpp:19(run)] [topics: /rosout] 3
+1716309919.612232194 DEBUG /cb_logger [/home/rosh/catkin_ws/src/auto-log-test/src/logging_test.cpp:15(run)] [topics: /rosout] 1
+1716309919.612270977 INFO /cb_logger [/home/rosh/catkin_ws/src/auto-log-test/src/logging_test.cpp:16(run)] [topics: /rosout] 1
+1716309919.612294871 WARN /cb_logger [/home/rosh/catkin_ws/src/auto-log-test/src/logging_test.cpp:17(run)] [topics: /rosout] 1
+1716309919.612316757 ERROR /cb_logger [/home/rosh/catkin_ws/src/auto-log-test/src/logging_test.cpp:18(run)] [topics: /rosout] 1
+1716309919.612337240 FATAL /cb_logger [/home/rosh/catkin_ws/src/auto-log-test/src/logging_test.cpp:19(run)] [topics: /rosout] 1
+1716309920.963595361 DEBUG /cb_logger2 [/home/rosh/catkin_ws/src/auto-log-test/src/logging_test2.cpp:15(run)] [topics: /rosout] 3
+1716309920.963653661 INFO /cb_logger2 [/home/rosh/catkin_ws/src/auto-log-test/src/logging_test2.cpp:16(run)] [topics: /rosout] 3
+1716309920.963687023 WARN /cb_logger2 [/home/rosh/catkin_ws/src/auto-log-test/src/logging_test2.cpp:17(run)] [topics: /rosout] 3
+1716309920.963716360 ERROR /cb_logger2 [/home/rosh/catkin_ws/src/auto-log-test/src/logging_test2.cpp:18(run)] [topics: /rosout] 3
+1716309920.963745468 FATAL /cb_logger2 [/home/rosh/catkin_ws/src/auto-log-test/src/logging_test2.cpp:19(run)] [topics: /rosout] 3
