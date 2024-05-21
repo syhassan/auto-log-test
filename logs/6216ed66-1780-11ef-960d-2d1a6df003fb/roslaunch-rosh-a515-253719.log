@@ -110,3 +110,21 @@ Press Ctrl-C to interrupt
 [roslaunch][INFO] 2024-05-21 16:43:02,275: process[rosout-1]: killing os process with pid[253778] pgid[253778]
 [roslaunch][INFO] 2024-05-21 16:43:02,275: [rosout-1] sending SIGINT to pgid [253778]
 [roslaunch][INFO] 2024-05-21 16:43:02,275: [rosout-1] sent SIGINT to pgid [253778]
+[roslaunch][INFO] 2024-05-21 16:43:02,476: process[rosout-1]: SIGINT killed with return value 0
+[roslaunch.pmon][INFO] 2024-05-21 16:43:02,476: ProcessMonitor exit: killing master
+[roslaunch][INFO] 2024-05-21 16:43:02,476: [master] killing on exit
+[roslaunch][INFO] 2024-05-21 16:43:02,477: process[master]: killing os process with pid[253749] pgid[253749]
+[roslaunch][INFO] 2024-05-21 16:43:02,477: [master] sending SIGINT to pgid [253749]
+[roslaunch][INFO] 2024-05-21 16:43:02,477: [master] sent SIGINT to pgid [253749]
+[roslaunch][INFO] 2024-05-21 16:43:02,678: process[master]: SIGINT killed with return value 0
+[roslaunch.pmon][INFO] 2024-05-21 16:43:02,678: ProcessMonitor exit: cleaning up data structures and signals
+[roslaunch.pmon][INFO] 2024-05-21 16:43:02,679: ProcessMonitor exit: pmon has shutdown
+[roslaunch][INFO] 2024-05-21 16:43:02,679: process monitor is done spinning, initiating full shutdown
+[roslaunch][INFO] 2024-05-21 16:43:02,679: runner.stop()
+[roslaunch][INFO] 2024-05-21 16:43:02,679: shutting down processing monitor...
+[roslaunch][INFO] 2024-05-21 16:43:02,679: shutting down processing monitor <ProcessMonitor(ProcessMonitor-1, stopped daemon 140706018301696)>
+[roslaunch.pmon][INFO] 2024-05-21 16:43:02,680: ProcessMonitor.shutdown <ProcessMonitor(ProcessMonitor-1, stopped daemon 140706018301696)>
+[roslaunch][INFO] 2024-05-21 16:43:02,680: ... shutting down processing monitor complete
+[roslaunch][INFO] 2024-05-21 16:43:02,680: done
+[roslaunch.pmon][INFO] 2024-05-21 16:43:02,680: ProcessMonitor.shutdown <ProcessMonitor(ProcessMonitor-1, stopped daemon 140706018301696)>
+[rospy.core][INFO] 2024-05-21 16:43:02,680: signal_shutdown [atexit]
