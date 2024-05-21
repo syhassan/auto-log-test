@@ -90,3 +90,23 @@ Press Ctrl-C to interrupt
 [roslaunch.pmon][INFO] 2024-05-21 16:42:45,557: registrations completed <ProcessMonitor(ProcessMonitor-1, started daemon 140706018301696)>
 [roslaunch.parent][INFO] 2024-05-21 16:42:45,557: ... roslaunch parent running, waiting for process exit
 [roslaunch][INFO] 2024-05-21 16:42:45,558: spin
+[roslaunch.pmon][INFO] 2024-05-21 16:43:01,443: ProcessMonitor.shutdown <ProcessMonitor(ProcessMonitor-1, started daemon 140706018301696)>
+[roslaunch.pmon][INFO] 2024-05-21 16:43:01,463: ProcessMonitor._post_run <ProcessMonitor(ProcessMonitor-1, started daemon 140706018301696)>
+[roslaunch.pmon][INFO] 2024-05-21 16:43:01,464: ProcessMonitor._post_run <ProcessMonitor(ProcessMonitor-1, started daemon 140706018301696)>: remaining procs are [<roslaunch.nodeprocess.LocalProcess object at 0x7ff8b936a730>, <roslaunch.nodeprocess.LocalProcess object at 0x7ff8b93ca370>, <roslaunch.nodeprocess.LocalProcess object at 0x7ff8b934fe50>, <roslaunch.nodeprocess.LocalProcess object at 0x7ff8b936a970>]
+[roslaunch.pmon][INFO] 2024-05-21 16:43:01,465: ProcessMonitor exit: killing cb_logger2-3
+[roslaunch][INFO] 2024-05-21 16:43:01,466: [cb_logger2-3] killing on exit
+[roslaunch.pmon][INFO] 2024-05-21 16:43:01,466: ProcessMonitor exit: killing cb_logger-2
+[roslaunch][INFO] 2024-05-21 16:43:01,467: [cb_logger-2] killing on exit
+[roslaunch][INFO] 2024-05-21 16:43:01,468: process[cb_logger2-3]: killing os process with pid[253786] pgid[253786]
+[roslaunch][INFO] 2024-05-21 16:43:01,471: [cb_logger2-3] sending SIGINT to pgid [253786]
+[roslaunch][INFO] 2024-05-21 16:43:01,471: [cb_logger2-3] sent SIGINT to pgid [253786]
+[roslaunch][INFO] 2024-05-21 16:43:01,472: process[cb_logger-2]: killing os process with pid[253781] pgid[253781]
+[roslaunch][INFO] 2024-05-21 16:43:01,472: [cb_logger-2] sending SIGINT to pgid [253781]
+[roslaunch][INFO] 2024-05-21 16:43:01,473: [cb_logger-2] sent SIGINT to pgid [253781]
+[roslaunch][INFO] 2024-05-21 16:43:01,573: process[cb_logger-2]: SIGINT killed with return value 0
+[roslaunch][INFO] 2024-05-21 16:43:02,273: process[cb_logger2-3]: SIGINT killed with return value 0
+[roslaunch.pmon][INFO] 2024-05-21 16:43:02,274: ProcessMonitor exit: killing rosout-1
+[roslaunch][INFO] 2024-05-21 16:43:02,274: [rosout-1] killing on exit
+[roslaunch][INFO] 2024-05-21 16:43:02,275: process[rosout-1]: killing os process with pid[253778] pgid[253778]
+[roslaunch][INFO] 2024-05-21 16:43:02,275: [rosout-1] sending SIGINT to pgid [253778]
+[roslaunch][INFO] 2024-05-21 16:43:02,275: [rosout-1] sent SIGINT to pgid [253778]
