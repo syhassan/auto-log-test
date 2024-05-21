@@ -1,0 +1,6 @@
+<launch>
+  <env name="ROSCONSOLE_CONFIG_FILE"
+       value="$(find cb_logging)/cfg/cb.conf"/>
+  <node name="cb_logger" pkg="cb_logging" type="cb_logger" output="screen"/>
+  <node name="cb_logger2" pkg="cb_logging" type="cb_logger2" output="screen"/>
+</launch>
