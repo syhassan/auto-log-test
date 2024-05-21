@@ -1,0 +1,4 @@
+
+
+1716302050.456782939  Node Startup
+1716302050.778560732 DEBUG /cb_logger2 [/tmp/binarydeb/ros-noetic-roscpp-1.16.0/src/libros/connection_manager.cpp:202(ConnectionManager::onConnectionHeaderReceived)] [topics: /rosout] Connection: Creating TransportSubscriberLink for topic [/rosout] connected to [callerid=[/rosout] address=[TCPROS connection on port 44937 to [192.168.1.114:35850 on socket 11]]]
