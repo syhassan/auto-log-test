@@ -17,7 +17,6 @@ while :
     time_diff=$((current - event_time))
     
     if [[ "$time_diff" -gt "$timeout" && "$flag" = true ]]; then
-      echo "poop"
       git -C /home/rosh/catkin_ws/src/auto-log-test add . && git -C /home/rosh/catkin_ws/src/auto-log-test commit -m 'auto commit' && git -C /home/rosh/catkin_ws/src/auto-log-test push origin master
       flag=false
     fi
