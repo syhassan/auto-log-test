@@ -90,3 +90,41 @@ Press Ctrl-C to interrupt
 [roslaunch.pmon][INFO] 2024-05-21 15:05:09,364: registrations completed <ProcessMonitor(ProcessMonitor-1, started daemon 140222402393856)>
 [roslaunch.parent][INFO] 2024-05-21 15:05:09,365: ... roslaunch parent running, waiting for process exit
 [roslaunch][INFO] 2024-05-21 15:05:09,365: spin
+[roslaunch.pmon][INFO] 2024-05-21 15:05:23,990: ProcessMonitor.shutdown <ProcessMonitor(ProcessMonitor-1, started daemon 140222402393856)>
+[roslaunch.pmon][INFO] 2024-05-21 15:05:24,057: ProcessMonitor._post_run <ProcessMonitor(ProcessMonitor-1, started daemon 140222402393856)>
+[roslaunch.pmon][INFO] 2024-05-21 15:05:24,057: ProcessMonitor._post_run <ProcessMonitor(ProcessMonitor-1, started daemon 140222402393856)>: remaining procs are [<roslaunch.nodeprocess.LocalProcess object at 0x7f881f759760>, <roslaunch.nodeprocess.LocalProcess object at 0x7f881f74b8e0>, <roslaunch.nodeprocess.LocalProcess object at 0x7f881f73ccd0>, <roslaunch.nodeprocess.LocalProcess object at 0x7f881f759a30>]
+[roslaunch.pmon][INFO] 2024-05-21 15:05:24,058: ProcessMonitor exit: killing cb_logger2-3
+[roslaunch.pmon][INFO] 2024-05-21 15:05:24,058: ProcessMonitor exit: killing cb_logger-2
+[roslaunch][INFO] 2024-05-21 15:05:24,058: [cb_logger2-3] killing on exit
+[roslaunch][INFO] 2024-05-21 15:05:24,059: [cb_logger-2] killing on exit
+[roslaunch][INFO] 2024-05-21 15:05:24,059: process[cb_logger2-3]: killing os process with pid[199388] pgid[199388]
+[roslaunch][INFO] 2024-05-21 15:05:24,060: process[cb_logger-2]: killing os process with pid[199383] pgid[199383]
+[roslaunch][INFO] 2024-05-21 15:05:24,060: [cb_logger2-3] sending SIGINT to pgid [199388]
+[roslaunch][INFO] 2024-05-21 15:05:24,060: [cb_logger-2] sending SIGINT to pgid [199383]
+[roslaunch][INFO] 2024-05-21 15:05:24,060: [cb_logger2-3] sent SIGINT to pgid [199388]
+[roslaunch][INFO] 2024-05-21 15:05:24,060: [cb_logger-2] sent SIGINT to pgid [199383]
+[roslaunch][INFO] 2024-05-21 15:05:24,462: process[cb_logger2-3]: SIGINT killed with return value 0
+[roslaunch][INFO] 2024-05-21 15:05:25,465: process[cb_logger-2]: SIGINT killed with return value 0
+[roslaunch.pmon][INFO] 2024-05-21 15:05:25,465: ProcessMonitor exit: killing rosout-1
+[roslaunch][INFO] 2024-05-21 15:05:25,466: [rosout-1] killing on exit
+[roslaunch][INFO] 2024-05-21 15:05:25,466: process[rosout-1]: killing os process with pid[199380] pgid[199380]
+[roslaunch][INFO] 2024-05-21 15:05:25,466: [rosout-1] sending SIGINT to pgid [199380]
+[roslaunch][INFO] 2024-05-21 15:05:25,467: [rosout-1] sent SIGINT to pgid [199380]
+[roslaunch][INFO] 2024-05-21 15:05:25,667: process[rosout-1]: SIGINT killed with return value 0
+[roslaunch.pmon][INFO] 2024-05-21 15:05:25,668: ProcessMonitor exit: killing master
+[roslaunch][INFO] 2024-05-21 15:05:25,668: [master] killing on exit
+[roslaunch][INFO] 2024-05-21 15:05:25,668: process[master]: killing os process with pid[199357] pgid[199357]
+[roslaunch][INFO] 2024-05-21 15:05:25,668: [master] sending SIGINT to pgid [199357]
+[roslaunch][INFO] 2024-05-21 15:05:25,668: [master] sent SIGINT to pgid [199357]
+[roslaunch][INFO] 2024-05-21 15:05:25,869: process[master]: SIGINT killed with return value 0
+[roslaunch.pmon][INFO] 2024-05-21 15:05:25,869: ProcessMonitor exit: cleaning up data structures and signals
+[roslaunch.pmon][INFO] 2024-05-21 15:05:25,869: ProcessMonitor exit: pmon has shutdown
+[roslaunch][INFO] 2024-05-21 15:05:25,869: process monitor is done spinning, initiating full shutdown
+[roslaunch][INFO] 2024-05-21 15:05:25,870: runner.stop()
+[roslaunch][INFO] 2024-05-21 15:05:25,870: shutting down processing monitor...
+[roslaunch][INFO] 2024-05-21 15:05:25,870: shutting down processing monitor <ProcessMonitor(ProcessMonitor-1, stopped daemon 140222402393856)>
+[roslaunch.pmon][INFO] 2024-05-21 15:05:25,870: ProcessMonitor.shutdown <ProcessMonitor(ProcessMonitor-1, stopped daemon 140222402393856)>
+[roslaunch][INFO] 2024-05-21 15:05:25,870: ... shutting down processing monitor complete
+[roslaunch][INFO] 2024-05-21 15:05:25,870: done
+[roslaunch.pmon][INFO] 2024-05-21 15:05:25,870: ProcessMonitor.shutdown <ProcessMonitor(ProcessMonitor-1, stopped daemon 140222402393856)>
+[rospy.core][INFO] 2024-05-21 15:05:25,871: signal_shutdown [atexit]
