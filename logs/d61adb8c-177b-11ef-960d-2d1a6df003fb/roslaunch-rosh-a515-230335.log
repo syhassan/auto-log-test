@@ -87,3 +87,17 @@ Press Ctrl-C to interrupt
 [roslaunch.pmon][INFO] 2024-05-21 16:10:12,132: registrations completed <ProcessMonitor(ProcessMonitor-1, started daemon 140258246313728)>
 [roslaunch.parent][INFO] 2024-05-21 16:10:12,132: ... roslaunch parent running, waiting for process exit
 [roslaunch][INFO] 2024-05-21 16:10:12,133: spin
+[roslaunch.pmon][INFO] 2024-05-21 16:10:20,060: ProcessMonitor.shutdown <ProcessMonitor(ProcessMonitor-1, started daemon 140258246313728)>
+[roslaunch.pmon][INFO] 2024-05-21 16:10:20,114: ProcessMonitor._post_run <ProcessMonitor(ProcessMonitor-1, started daemon 140258246313728)>
+[roslaunch.pmon][INFO] 2024-05-21 16:10:20,115: ProcessMonitor._post_run <ProcessMonitor(ProcessMonitor-1, started daemon 140258246313728)>: remaining procs are [<roslaunch.nodeprocess.LocalProcess object at 0x7f9077ec67f0>, <roslaunch.nodeprocess.LocalProcess object at 0x7f9065e45610>, <roslaunch.nodeprocess.LocalProcess object at 0x7f9077ea9d00>, <roslaunch.nodeprocess.LocalProcess object at 0x7f9077ec6610>]
+[roslaunch.pmon][INFO] 2024-05-21 16:10:20,115: ProcessMonitor exit: killing cb_logger2-3
+[roslaunch][INFO] 2024-05-21 16:10:20,115: [cb_logger2-3] killing on exit
+[roslaunch.pmon][INFO] 2024-05-21 16:10:20,116: ProcessMonitor exit: killing cb_logger-2
+[roslaunch][INFO] 2024-05-21 16:10:20,116: process[cb_logger2-3]: killing os process with pid[230398] pgid[230398]
+[roslaunch][INFO] 2024-05-21 16:10:20,116: [cb_logger-2] killing on exit
+[roslaunch][INFO] 2024-05-21 16:10:20,116: [cb_logger2-3] sending SIGINT to pgid [230398]
+[roslaunch][INFO] 2024-05-21 16:10:20,117: process[cb_logger-2]: killing os process with pid[230393] pgid[230393]
+[roslaunch][INFO] 2024-05-21 16:10:20,117: [cb_logger2-3] sent SIGINT to pgid [230398]
+[roslaunch][INFO] 2024-05-21 16:10:20,117: [cb_logger-2] sending SIGINT to pgid [230393]
+[roslaunch][INFO] 2024-05-21 16:10:20,118: [cb_logger-2] sent SIGINT to pgid [230393]
+[roslaunch][INFO] 2024-05-21 16:10:20,518: process[cb_logger2-3]: SIGINT killed with return value 0
