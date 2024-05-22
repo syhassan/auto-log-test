@@ -2,7 +2,7 @@
 
 # variable init
 current=$SECONDS
-timeout=3
+timeout=10
 time_diff=0
 flag=false
 
@@ -17,7 +17,7 @@ while :
     time_diff=$((current - event_time))
     
     if [[ "$time_diff" -gt "$timeout" && "$flag" = true ]]; then
-      git -C /home/rosh/catkin_ws/src/auto-log-test add . && git -C /home/rosh/catkin_ws/src/auto-log-test commit -m 'demo' && git -C /home/rosh/catkin_ws/src/auto-log-test push origin master
+      git -C /home/rosh/catkin_ws/src/auto-log-test add . && git -C /home/rosh/catkin_ws/src/auto-log-test commit -m 'commit' && git -C /home/rosh/catkin_ws/src/auto-log-test push origin master
       flag=false
     fi
 
